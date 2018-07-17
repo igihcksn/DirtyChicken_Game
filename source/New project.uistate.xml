@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="1">Level 2</layout>
+        <layout order="3">Level 1</layout>
+        <layout active="1" order="5">Level 3</layout>
+        <layout order="7">Layout 1</layout>
+        <event-sheet order="0">E_Wel</event-sheet>
+        <event-sheet order="2">E_L2</event-sheet>
+        <event-sheet order="4">E_L1</event-sheet>
+        <event-sheet order="6">E_L3</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="0" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/FIXQ/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/FIXQ2/" />
+        <folder expanded="1" path="animation-folder/ayam3/" />
+        <folder expanded="1" path="animation-folder/sandRight/" />
+        <folder expanded="1" path="animation-folder/lavaTop_high/" />
+        <folder expanded="1" path="animation-folder/sandLeft/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/sandCliffAlt_left/" />
+        <folder expanded="1" path="animation-folder/sandCliffAlt_right/" />
+        <folder expanded="1" path="animation-folder/sandCliffAlt_left2/" />
+        <folder expanded="1" path="animation-folder/tudung/" />
+        <folder expanded="1" path="animation-folder/garpu/" />
+        <folder expanded="1" path="animation-folder/sandHalf/" />
+        <folder expanded="1" path="animation-folder/sand/" />
+        <folder expanded="1" path="animation-folder/sandHalf_left/" />
+        <folder expanded="1" path="animation-folder/sandHalf_left2/" />
+        <folder expanded="1" path="animation-folder/sandHalf_mid/" />
+        <folder expanded="1" path="animation-folder/sandHalf_right/" />
+        <folder expanded="1" path="animation-folder/sandHalf_mid2/" />
+        <folder expanded="1" path="animation-folder/sandCliff_left/" />
+        <folder expanded="1" path="animation-folder/sandCliff_left2/" />
+        <folder expanded="1" path="animation-folder/mayo/" />
+        <folder expanded="1" path="animation-folder/mayo2/" />
+        <folder expanded="1" path="animation-folder/gear/" />
+        <folder expanded="1" path="animation-folder/audioOff/" />
+        <folder expanded="1" path="animation-folder/hudHeart_full/" />
+        <folder expanded="1" path="animation-folder/hud/" />
+        <folder expanded="1" path="animation-folder/hudJewel_blue/" />
+        <folder expanded="1" path="animation-folder/cover/" />
+        <folder expanded="1" path="animation-folder/btnPlay/" />
+        <folder expanded="1" path="animation-folder/btnAbout/" />
+        <folder expanded="1" path="animation-folder/cover2/" />
+        <folder expanded="1" path="animation-folder/btnUlang/" />
+        <folder expanded="1" path="animation-folder/hudX/" />
+        <folder expanded="1" path="animation-folder/sambel/" />
+        <folder expanded="1" path="animation-folder/garpu2/" />
+        <folder expanded="1" path="animation-folder/flagGreen/" />
+        <folder expanded="1" path="animation-folder/colored_desert/" />
+        <folder expanded="1" path="animation-folder/grass/" />
+        <folder expanded="1" path="animation-folder/bg/" />
+        <folder expanded="1" path="animation-folder/dirtCliff_right/" />
+        <folder expanded="1" path="animation-folder/waterTop_high/" />
+        <folder expanded="1" path="animation-folder/dirtCliff_left/" />
+        <folder expanded="1" path="animation-folder/dirtHalf/" />
+        <folder expanded="1" path="animation-folder/dirtCliffAlt_right/" />
+        <folder expanded="1" path="animation-folder/dirtHalf2/" />
+        <folder expanded="1" path="animation-folder/dirtCliffAlt_left/" />
+        <folder expanded="1" path="animation-folder/dirtMid/" />
+        <folder expanded="1" path="animation-folder/dirtCliffAlt_right2/" />
+        <folder expanded="1" path="animation-folder/dirtHalf_left/" />
+        <folder expanded="1" path="animation-folder/dirtHalf_mid/" />
+        <folder expanded="1" path="animation-folder/dirtHalf_right/" />
+        <folder expanded="1" path="animation-folder/dirtCliff_left2/" />
+        <folder expanded="1" path="animation-folder/dirtMid2/" />
+        <folder expanded="1" path="animation-folder/flagBlue/" />
+        <folder expanded="1" path="animation-folder/dirtCliff_right2/" />
+        <folder expanded="1" path="animation-folder/dirtRight/" />
+        <folder expanded="1" path="animation-folder/dirtCliff_right3/" />
+        <folder expanded="1" path="animation-folder/bg2/" />
+        <folder expanded="1" path="animation-folder/planetCliffAlt_left/" />
+        <folder expanded="1" path="animation-folder/planetCliffAlt_right/" />
+        <folder expanded="1" path="animation-folder/planetCliff_left/" />
+        <folder expanded="1" path="animation-folder/planetCliff_right/" />
+        <folder expanded="1" path="animation-folder/planetMid/" />
+        <folder expanded="1" path="animation-folder/planetCenter/" />
+        <folder expanded="1" path="animation-folder/planetRight/" />
+        <folder expanded="1" path="animation-folder/planetLeft/" />
+        <folder expanded="1" path="animation-folder/spikes/" />
+        <folder expanded="1" path="animation-folder/planetCliffAlt_left2/" />
+        <folder expanded="1" path="animation-folder/planet/" />
+        <folder expanded="1" path="animation-folder/flagYellow/" />
+        <folder expanded="1" path="animation-folder/planetHalf/" />
+        <folder expanded="1" path="animation-folder/pisau/" />
+        <folder expanded="1" path="animation-folder/bonus/" />
+        <folder expanded="1" path="animation-folder/complete/" />
+        <folder expanded="1" path="animation-folder/kelar/" />
+        <folder expanded="1" path="animation-folder/next/" />
+        <folder expanded="1" path="animation-folder/btnUlang2/" />
+        <folder expanded="1" path="animation-folder/lagi/" />
+    </folders-expanded>
+</c2uistate>

@@ -1,0 +1,1824 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>6apw76yp5w3h</unique-id>
+    <saved-with-version>22700</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Chris Kent" id="SpriteFontPlus" version="1">SpriteFont+</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="custom" version="1">Custom Movement</behavior>
+        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1136</width>
+        <height>640</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="FIXQ" sid="6508401824766744">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4265878666010509" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\FIXQ.1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="3421704947586898">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6298758374141251" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\FIXQ.1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="FIXQ2" sid="3084932602309975">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2949186856147229" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="D:\DataKu\Tekgame\FIXQ.1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground" sid="4762505524394705">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandMid.png" />
+        </object-type>
+        <object-type name="TiledBackground2" sid="2262629007993433">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandMid.png" />
+        </object-type>
+        <object-type name="TiledBackground3" sid="810737757567681">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandRight.png" />
+        </object-type>
+        <object-type name="TiledBackground4" sid="5557156267406883">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandMid.png" />
+        </object-type>
+        <object-type name="TiledBackground5" sid="163065189342512">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="415084071722429">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandCenter.png" />
+        </object-type>
+        <object-type name="TiledBackground6" sid="1490169281270059">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="1741710534594724">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandMid.png" />
+        </object-type>
+        <object-type name="ayam3" sid="1479755200826644">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="heart" sid="6452244129247614" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Platform" sid="2419078796854949">
+                    <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="9873399777557327">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="Flash" sid="3991806453921183">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="stand" pingpong="0" repeatcount="0" repeatto="0" sid="7932181739713327" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\ayam.png" />
+                </animation>
+                <animation framecount="2" loop="1" name="walk" pingpong="0" repeatcount="0" repeatto="0" sid="180617181173873" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\ayam.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\ayam1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="781081880677498">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="sandRight" sid="1509741177020094">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="6008685284241001">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1815340485500179" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandRight.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.960938" y="0.0390625" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96875" y="0.96875" />
+                            <point x="0.5" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="lavaTop_high" sid="7807042639860031">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5877853749528875" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Tiles\lavaTop_high.png">
+                        <collision-poly>
+                            <point x="0.117188" y="0.117188" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.953125" y="0.046875" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sandLeft" sid="4071728639263463">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="7715294205042301">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2954880771353106" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandLeft.png">
+                        <collision-poly>
+                            <point x="0.0390625" y="0.0390625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="1" />
+                            <point x="0.03125" y="0.96875" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="9016162231659902">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3036126280266969" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandCenter.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground7" sid="2990545466771378">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandCenter.png" />
+        </object-type>
+        <object-type name="TiledBackground8" sid="1377949371299067">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground9" sid="4543997490250002">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandCenter.png" />
+        </object-type>
+        <object-type name="Sprite3" sid="1285247438704803">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3406963139157101" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandLeft.png">
+                        <collision-poly>
+                            <point x="0.0390625" y="0.0390625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="1" />
+                            <point x="0.03125" y="0.96875" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground10" sid="7013149105335336">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandLeft.png" />
+        </object-type>
+        <object-type name="TiledBackground11" sid="9892058140174885">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandCenter.png" />
+        </object-type>
+        <object-type name="sandCliffAlt_left" sid="1207138863051696">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="1304164522901489">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7812983222314051" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandCliffAlt_left.png">
+                        <collision-poly>
+                            <point x="0.0390625" y="0.0390625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.25" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sandCliffAlt_right" sid="1663227093730461">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="6555492763987812">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9158244713646329" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandCliffAlt_right.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="0.742188" y="0.5" />
+                            <point x="0.601563" y="0.601563" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground12" sid="7159469267347257">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="3487631089143145">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandCenter.png" />
+        </object-type>
+        <object-type name="sandCliffAlt_left2" sid="7189975854393029">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8344926014173402" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandCliffAlt_left.png">
+                        <collision-poly>
+                            <point x="0.0390625" y="0.0390625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.25" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tudung" sid="1075878576433528">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="CustomMovement" sid="9084350161820244">
+                    <behavior id="custom" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="5970228578520193">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="387662366843595" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50237" original-source="D:\DataKu\Tekgame\tudung.png">
+                        <collision-poly>
+                            <point x="0.19697" y="0.308057" />
+                            <point x="0.5" y="0" />
+                            <point x="0.80303" y="0.308057" />
+                            <point x="0.909091" y="0.49763" />
+                            <point x="0.984848" y="0.976303" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0151515" y="0.976303" />
+                            <point x="0.0939394" y="0.49763" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="garpu" sid="4396893077500777">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="3059599215019478">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Sine2" sid="2087140855739506">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5416548634598451" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506494" original-source="D:\DataKu\Tekgame\garpu2.png">
+                        <collision-poly>
+                            <point x="0.136364" y="0.038961" />
+                            <point x="0.5" y="0.025974" />
+                            <point x="0.818182" y="0.0519481" />
+                            <point x="0.636364" y="0.493506" />
+                            <point x="0.863636" y="0.961039" />
+                            <point x="0.5" y="1" />
+                            <point x="0.136364" y="0.961039" />
+                            <point x="0.363636" y="0.493506" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sandHalf" sid="3540381945646493">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="2518585778093785">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Jumpthru" sid="8442414345257145">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="7869782066241357">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3889639489733358" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandHalf.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="0.570313" y="0.570313" />
+                            <point x="0.429688" y="0.570313" />
+                            <point x="0.015625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sand" sid="5333237285076278">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4549187632869559" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sand.png">
+                        <collision-poly>
+                            <point x="0.0390625" y="0.0390625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.960938" y="0.0390625" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96875" y="0.96875" />
+                            <point x="0.5" y="1" />
+                            <point x="0.03125" y="0.96875" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sandHalf_left" sid="36894872114868">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4966084999360307" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandHalf_left.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.5" />
+                            <point x="0.570313" y="0.570313" />
+                            <point x="0.429688" y="0.570313" />
+                            <point x="0.015625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandHalf_mid.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.5" />
+                            <point x="0.570313" y="0.570313" />
+                            <point x="0.429688" y="0.570313" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandHalf_right.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="0.570313" y="0.570313" />
+                            <point x="0.429688" y="0.570313" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sandHalf_left2" sid="6402393448185073">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="4394487438133126">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4658294024898063" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandHalf_left.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.5" />
+                            <point x="0.570313" y="0.570313" />
+                            <point x="0.429688" y="0.570313" />
+                            <point x="0.015625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sandHalf_mid" sid="3513336515230191">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="4768877886579336">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9449221006977985" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandHalf_mid.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.5" />
+                            <point x="0.570313" y="0.570313" />
+                            <point x="0.429688" y="0.570313" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sandHalf_right" sid="7754143168839654">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="938951659129201">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5873342151044174" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandHalf_right.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="0.570313" y="0.570313" />
+                            <point x="0.429688" y="0.570313" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sandHalf_mid2" sid="9712156718725078">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="8510132425234385">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6926423649027912" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandHalf_mid.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.5" />
+                            <point x="0.570313" y="0.570313" />
+                            <point x="0.429688" y="0.570313" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sandCliff_left" sid="227834283783116">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7724198576789261" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandCliff_left.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="0.90625" />
+                            <point x="0.234375" y="0.765625" />
+                            <point x="0.03125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sandCliff_left2" sid="1474262169062779">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="4102132265104607">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4850733658057994" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Sand\sandCliff_left.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="0.90625" />
+                            <point x="0.234375" y="0.765625" />
+                            <point x="0.03125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mayo" sid="9132400526685299">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="85800428160268" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\mayo.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.316327" />
+                            <point x="0.793478" y="0.193878" />
+                            <point x="0.684783" y="0.5" />
+                            <point x="0.586957" y="0.612245" />
+                            <point x="0.5" y="0.683673" />
+                            <point x="0.282609" y="0.734694" />
+                            <point x="0.282609" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mayo2" sid="8163135125721059">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9276605549053629" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\mayo.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.316327" />
+                            <point x="0.793478" y="0.193878" />
+                            <point x="0.684783" y="0.5" />
+                            <point x="0.586957" y="0.612245" />
+                            <point x="0.5" y="0.683673" />
+                            <point x="0.282609" y="0.734694" />
+                            <point x="0.282609" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="gear" sid="3904319356323484">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6984408634674844" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\4\PNG\White\1x\gear.png">
+                        <collision-poly>
+                            <point x="0.3" y="0.3" />
+                            <point x="0.5" y="0.2" />
+                            <point x="0.72" y="0.28" />
+                            <point x="0.84" y="0.5" />
+                            <point x="0.74" y="0.74" />
+                            <point x="0.5" y="0.84" />
+                            <point x="0.2" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="audioOff" sid="4538138364951287">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5751573484844017" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\4\PNG\White\1x\audioOff.png">
+                        <collision-poly>
+                            <point x="0.36" y="0.36" />
+                            <point x="0.5" y="0.2" />
+                            <point x="0.58" y="0.42" />
+                            <point x="0.58" y="0.58" />
+                            <point x="0.5" y="0.84" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.18" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\4\PNG\White\1x\audioOn.png">
+                        <collision-poly>
+                            <point x="0.36" y="0.36" />
+                            <point x="0.5" y="0.2" />
+                            <point x="0.58" y="0.42" />
+                            <point x="0.82" y="0.5" />
+                            <point x="0.58" y="0.58" />
+                            <point x="0.5" y="0.84" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.18" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\4\PNG\White\1x\backward.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.3" />
+                            <point x="0.7" y="0.3" />
+                            <point x="0.7" y="0.7" />
+                            <point x="0.5" y="0.72" />
+                            <point x="0.4" y="0.6" />
+                            <point x="0.3" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="hudHeart_full" sid="8623971510479728">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="9260569348549743" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\HUD\hudHeart_full.png">
+                        <collision-poly>
+                            <point x="0.234375" y="0.234375" />
+                            <point x="0.5" y="0.25" />
+                            <point x="0.757813" y="0.242188" />
+                            <point x="0.851563" y="0.5" />
+                            <point x="0.695313" y="0.695313" />
+                            <point x="0.5" y="0.851563" />
+                            <point x="0.296875" y="0.703125" />
+                            <point x="0.125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="hud" sid="2549374432930435">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="type" sid="3845219767732095" type="string" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6281953671229474" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\HUD\hud0.png">
+                        <collision-poly>
+                            <point x="0.367188" y="0.367188" />
+                            <point x="0.5" y="0.289063" />
+                            <point x="0.640625" y="0.359375" />
+                            <point x="0.695313" y="0.5" />
+                            <point x="0.679688" y="0.679688" />
+                            <point x="0.5" y="0.8125" />
+                            <point x="0.304688" y="0.695313" />
+                            <point x="0.296875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SpriteFont" sid="514960662601609">
+            <plugin id="Spritefont2" />
+            <texture original-source="D:\DataKu\Tekgame\font.png" />
+        </object-type>
+        <object-type name="SpriteFont2" sid="8290930899860227">
+            <plugin id="Spritefont2" />
+            <texture original-source="D:\DataKu\Tekgame\font.png" />
+        </object-type>
+        <object-type name="SpriteFont3" sid="2171442527476508">
+            <plugin id="SpriteFontPlus" />
+            <instance-variables>
+                <instance-variable name="type" sid="7137185023205589" type="string" />
+            </instance-variables>
+            <texture original-source="D:\DataKu\Tekgame\font.png" />
+        </object-type>
+        <object-type name="hudJewel_blue" sid="2342870241566859">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4392962881218942" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\HUD\hudJewel_blue.png">
+                        <collision-poly>
+                            <point x="0.28125" y="0.28125" />
+                            <point x="0.5" y="0.257813" />
+                            <point x="0.71875" y="0.28125" />
+                            <point x="0.859375" y="0.5" />
+                            <point x="0.695313" y="0.695313" />
+                            <point x="0.5" y="0.796875" />
+                            <point x="0.304688" y="0.695313" />
+                            <point x="0.140625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="cover" sid="2294973719568625">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2324564596250301" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\cover.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="8042203459366181">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="btnPlay" sid="3373162755832852">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1773916034189333" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\btnPlay_1.png">
+                        <collision-poly>
+                            <point x="0.0847458" y="0.294118" />
+                            <point x="0.5" y="0.0735294" />
+                            <point x="0.919492" y="0.279412" />
+                            <point x="0.919492" y="0.720588" />
+                            <point x="0.5" y="0.941176" />
+                            <point x="0.0847458" y="0.705882" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\btnPlay.png">
+                        <collision-poly>
+                            <point x="0.0211864" y="0.0735294" />
+                            <point x="0.5" y="0.0147059" />
+                            <point x="0.970339" y="0.102941" />
+                            <point x="0.970339" y="0.897059" />
+                            <point x="0.5" y="0.985294" />
+                            <point x="0.0211864" y="0.926471" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnAbout" sid="7379728898174835">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4591664205837874" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\btnAbout.png">
+                        <collision-poly>
+                            <point x="0.0211864" y="0.0735294" />
+                            <point x="0.5" y="0.0147059" />
+                            <point x="0.970339" y="0.102941" />
+                            <point x="0.970339" y="0.897059" />
+                            <point x="0.5" y="0.985294" />
+                            <point x="0.0211864" y="0.926471" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="cover2" sid="7461633656642857">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1928875496751074" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\cover.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnUlang" sid="8944102959798953">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4764187250985173" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\btnUlang.png">
+                        <collision-poly>
+                            <point x="0.0847458" y="0.294118" />
+                            <point x="0.5" y="0.0735294" />
+                            <point x="0.919492" y="0.279412" />
+                            <point x="0.919492" y="0.720588" />
+                            <point x="0.5" y="0.941176" />
+                            <point x="0.0847458" y="0.705882" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="hudX" sid="9863395188800086">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2963353167969192" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\HUD\hudX.png">
+                        <collision-poly>
+                            <point x="0.359375" y="0.359375" />
+                            <point x="0.5" y="0.375" />
+                            <point x="0.632813" y="0.367188" />
+                            <point x="0.65625" y="0.5" />
+                            <point x="0.664063" y="0.664063" />
+                            <point x="0.5" y="0.6875" />
+                            <point x="0.320313" y="0.679688" />
+                            <point x="0.320313" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sambel" sid="975009986393099">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9906115346628946" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\sambel.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.316327" />
+                            <point x="0.771739" y="0.214286" />
+                            <point x="0.673913" y="0.5" />
+                            <point x="0.576087" y="0.602041" />
+                            <point x="0.5" y="0.693878" />
+                            <point x="0.282609" y="0.734694" />
+                            <point x="0.336957" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="garpu2" sid="8922965249515407">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="7513500073796157">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8652108898904309" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506494" original-source="D:\DataKu\Tekgame\garpu.png">
+                        <collision-poly>
+                            <point x="0.227273" y="0.0649351" />
+                            <point x="0.5" y="0" />
+                            <point x="0.772727" y="0.0649351" />
+                            <point x="0.636364" y="0.493506" />
+                            <point x="0.863636" y="0.961039" />
+                            <point x="0.5" y="1" />
+                            <point x="0.136364" y="0.961039" />
+                            <point x="0.363636" y="0.493506" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="flagGreen" sid="5644216535680316">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6358092844160269" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Items\flagGreen2.png">
+                        <collision-poly>
+                            <point x="0.0234375" y="0.0234375" />
+                            <point x="0.5" y="0.101563" />
+                            <point x="0.75" y="0.25" />
+                            <point x="0.289063" y="0.5" />
+                            <point x="0.46875" y="0.46875" />
+                            <point x="0.5" y="0.476563" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="colored_desert" sid="7700169122387803">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="131359604900123" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Backgrounds\colored_desert.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground13" sid="3424667042945612">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Grass\grassMid.png" />
+        </object-type>
+        <object-type name="TiledBackground14" sid="2953850037405965">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Grass\grassCenter.png" />
+        </object-type>
+        <object-type name="grass" sid="2976324558109883">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="567956223312778" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Grass\grass.png">
+                        <collision-poly>
+                            <point x="0.0390625" y="0.0390625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.960938" y="0.0390625" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96875" y="0.96875" />
+                            <point x="0.5" y="1" />
+                            <point x="0.03125" y="0.96875" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg" sid="8181013225360633">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1759425504906729" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\bg2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground15" sid="4166616337982937">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="7004603300194735">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Dirt\dirtMid.png" />
+        </object-type>
+        <object-type name="TiledBackground16" sid="1504071753701694">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="9541507578416669">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Dirt\dirtCenter.png" />
+        </object-type>
+        <object-type name="dirtCliff_right" sid="9070271781151739">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="1799173512395889">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9552185996460789" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Dirt\dirtCliff_right.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="0.96875" y="0.5" />
+                            <point x="0.765625" y="0.765625" />
+                            <point x="0.5" y="0.90625" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="waterTop_high" sid="3556481554769724">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5238048479066141" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Tiles\waterTop_high.png">
+                        <collision-poly>
+                            <point x="0.117188" y="0.117188" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.953125" y="0.046875" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dirtCliff_left" sid="9389911076272178">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="4159729431547137">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6886551066248359" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Dirt\dirtCliff_left.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="0.90625" />
+                            <point x="0.234375" y="0.765625" />
+                            <point x="0.03125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dirtHalf" sid="8852318869288252">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="3421831299335242">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="5964052492427473">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1406120227273863" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Dirt\dirtHalf.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="0.570313" y="0.570313" />
+                            <point x="0.429688" y="0.570313" />
+                            <point x="0.015625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dirtCliffAlt_right" sid="6265956947881124">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="7260319608740255">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8827543533268286" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Dirt\dirtCliffAlt_right.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="0.75" y="0.5" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dirtHalf2" sid="9745394213284724">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="3621819755928228">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="8306979231790135">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4793586742265302" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Dirt\dirtHalf.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="0.570313" y="0.570313" />
+                            <point x="0.429688" y="0.570313" />
+                            <point x="0.015625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dirtCliffAlt_left" sid="8907891768555128">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="4278905560640959">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6840976486754184" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Dirt\dirtCliffAlt_left.png">
+                        <collision-poly>
+                            <point x="0.0390625" y="0.0390625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.25" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dirtMid" sid="5638404822564327">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="6788052782151078">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7361393785906603" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Dirt\dirtMid.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dirtCliffAlt_right2" sid="4242740678628158">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="811448785964291">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2073782226979991" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Dirt\dirtCliffAlt_right.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="0.75" y="0.5" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dirtHalf_left" sid="9116616410484093">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3694078324894378" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Dirt\dirtHalf_left.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.5" />
+                            <point x="0.570313" y="0.570313" />
+                            <point x="0.429688" y="0.570313" />
+                            <point x="0.015625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dirtHalf_mid" sid="5996399997183845">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="889709595079372" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Dirt\dirtHalf_mid.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.5" />
+                            <point x="0.570313" y="0.570313" />
+                            <point x="0.429688" y="0.570313" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dirtHalf_right" sid="5365348301484585">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8867763974491957" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Dirt\dirtHalf_right.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="0.570313" y="0.570313" />
+                            <point x="0.429688" y="0.570313" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dirtCliff_left2" sid="1189561565328533">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="3763134892930138">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6563803211753996" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Dirt\dirtCliff_left.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="0.90625" />
+                            <point x="0.234375" y="0.765625" />
+                            <point x="0.03125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dirtMid2" sid="8749021808122465">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="6201184109569275">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9901431107945811" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Dirt\dirtMid.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="flagBlue" sid="617819195912381">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6358934491176337" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Items\flagBlue1.png">
+                        <collision-poly>
+                            <point x="0.0234375" y="0.0234375" />
+                            <point x="0.5" y="0.226563" />
+                            <point x="0.765625" y="0.234375" />
+                            <point x="0.648438" y="0.5" />
+                            <point x="0.5625" y="0.5625" />
+                            <point x="0.5" y="0.601563" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dirtCliff_right2" sid="8893312378798728">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9809149677601687" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Dirt\dirtCliff_right.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="0.96875" y="0.5" />
+                            <point x="0.765625" y="0.765625" />
+                            <point x="0.5" y="0.90625" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dirtRight" sid="6734674457482775">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5920733855507974" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Dirt\dirtRight.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96875" y="0.96875" />
+                            <point x="0.5" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dirtCliff_right3" sid="954591248012022">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="672187866761841">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8899123197863673" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Dirt\dirtCliff_right.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="0.96875" y="0.5" />
+                            <point x="0.765625" y="0.765625" />
+                            <point x="0.5" y="0.90625" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg2" sid="6991799387623796">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2086808996974057" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\bg3.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="planetCliffAlt_left" sid="1391246175258403">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="1403617795669893">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2849816805068566" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Planet\planetCliffAlt_left.png">
+                        <collision-poly>
+                            <point x="0.0390625" y="0.0390625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.25" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="planetCliffAlt_right" sid="6938105842371732">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="9963677113445182">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4247789140964571" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Planet\planetCliffAlt_right.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.960938" y="0.0390625" />
+                            <point x="0.75" y="0.5" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="planetCliff_left" sid="9900737911389509">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="4873458568891332">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2718865443682379" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Planet\planetCliff_left.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="0.90625" />
+                            <point x="0.234375" y="0.765625" />
+                            <point x="0.03125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="planetCliff_right" sid="4336951316204801">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="704972474805338">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="191945870449566" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Planet\planetCliff_right.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.960938" y="0.0390625" />
+                            <point x="0.96875" y="0.5" />
+                            <point x="0.765625" y="0.765625" />
+                            <point x="0.5" y="0.90625" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="planetMid" sid="472328696045653">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="934725928566341">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6589855724180336" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Planet\planetMid.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="planetCenter" sid="2044775026171621">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4909531179539533" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Planet\planetCenter.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="planetRight" sid="5082695037223602">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="4176439470611596">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9905439011791518" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Planet\planetRight.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96875" y="0.96875" />
+                            <point x="0.5" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="planetLeft" sid="3924117746226375">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="157371552826592">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8316673419339594" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Planet\planetLeft.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="1" />
+                            <point x="0.03125" y="0.96875" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="spikes" sid="7486989135686967">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4377132680258812" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Tiles\spikes.png">
+                        <collision-poly>
+                            <point x="0.75" y="0.75" />
+                            <point x="0.5" y="0.515625" />
+                            <point x="0.25" y="0.75" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="planetCliffAlt_left2" sid="7708592345775105">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="6227462965918705">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9520521683807398" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Planet\planetCliffAlt_left.png">
+                        <collision-poly>
+                            <point x="0.0390625" y="0.0390625" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.25" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="planet" sid="1876603850577094">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="7151262904536542">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="984593728667117" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Planet\planet.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96875" y="0.96875" />
+                            <point x="0.5" y="1" />
+                            <point x="0.03125" y="0.96875" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="flagYellow" sid="7411787367713563">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1198383947833793" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Items\flagYellow1.png">
+                        <collision-poly>
+                            <point x="0.0234375" y="0.0234375" />
+                            <point x="0.5" y="0.226563" />
+                            <point x="0.765625" y="0.234375" />
+                            <point x="0.648438" y="0.5" />
+                            <point x="0.5625" y="0.5625" />
+                            <point x="0.5" y="0.601563" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="planetHalf" sid="3001134194405378">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="1207408399372987">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="9910847855693633">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8727106842016386" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\2\PNG\Ground\Planet\planetHalf.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="0.984375" y="0.5" />
+                            <point x="0.570313" y="0.570313" />
+                            <point x="0.429688" y="0.570313" />
+                            <point x="0.015625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pisau" sid="3133771852036515">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="5152027507078132">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="7415427311796406">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9424731631766984" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\pisau.png">
+                        <collision-poly>
+                            <point x="0.0546875" y="0.0546875" />
+                            <point x="0.5" y="0.365234" />
+                            <point x="0.564453" y="0.435547" />
+                            <point x="0.767578" y="0.5" />
+                            <point x="0.964844" y="0.964844" />
+                            <point x="0.5" y="0.761719" />
+                            <point x="0.439453" y="0.560547" />
+                            <point x="0.375" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bonus" sid="2770249749955752">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="606845027435344">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="9221791850482734">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7175358551491933" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\Bahan Game\Platformer\Abstract Platformer\PNG\extra\bonus.png">
+                        <collision-poly>
+                            <point x="0.18" y="0.25" />
+                            <point x="0.5" y="0.166667" />
+                            <point x="0.92" y="0.111111" />
+                            <point x="0.96" y="0.5" />
+                            <point x="0.96" y="0.944444" />
+                            <point x="0.5" y="0.944444" />
+                            <point x="0.16" y="0.777778" />
+                            <point x="0.02" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="complete" sid="6618854023026388">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1989922029208354" speed="5">
+                    <frame duration="1" hotspotX="0.500579" hotspotY="0.5" original-source="D:\DataKu\Tekgame\complete.png">
+                        <collision-poly>
+                            <point x="0.128621" y="0.200361" />
+                            <point x="0.499421" y="0.0740072" />
+                            <point x="0.871379" y="0.200361" />
+                            <point x="0.980301" y="0.5" />
+                            <point x="0.95365" y="0.927798" />
+                            <point x="0.499421" y="0.953069" />
+                            <point x="0.0498262" y="0.922383" />
+                            <point x="0.02781" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="4209652474824628">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="kelar" sid="8745695557716484">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6035227033296256" speed="5">
+                    <frame duration="1" hotspotX="0.500579" hotspotY="0.5" original-source="D:\DataKu\Tekgame\complete.png">
+                        <collision-poly>
+                            <point x="0.128621" y="0.200361" />
+                            <point x="0.499421" y="0.0740072" />
+                            <point x="0.871379" y="0.200361" />
+                            <point x="0.980301" y="0.5" />
+                            <point x="0.95365" y="0.927798" />
+                            <point x="0.499421" y="0.953069" />
+                            <point x="0.0498262" y="0.922383" />
+                            <point x="0.02781" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="next" sid="1139735012057417">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6297894256450744" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\next.png">
+                        <collision-poly>
+                            <point x="0.0508475" y="0.176471" />
+                            <point x="0.5" y="0.102941" />
+                            <point x="0.944915" y="0.191176" />
+                            <point x="0.95339" y="0.5" />
+                            <point x="0.944915" y="0.808824" />
+                            <point x="0.5" y="0.882353" />
+                            <point x="0.0550847" y="0.808824" />
+                            <point x="0.0423729" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnUlang2" sid="3574602572274647">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3517081464521708" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\btnUlang.png">
+                        <collision-poly>
+                            <point x="0.0508475" y="0.176471" />
+                            <point x="0.5" y="0.102941" />
+                            <point x="0.944915" y="0.191176" />
+                            <point x="0.95339" y="0.5" />
+                            <point x="0.944915" y="0.808824" />
+                            <point x="0.5" y="0.882353" />
+                            <point x="0.0550847" y="0.808824" />
+                            <point x="0.0423729" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="lagi" sid="6071940093037129">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1226044192336279" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\DataKu\Tekgame\lagi.png">
+                        <collision-poly>
+                            <point x="0.0508475" y="0.176471" />
+                            <point x="0.5" y="0.102941" />
+                            <point x="0.944915" y="0.191176" />
+                            <point x="0.95339" y="0.5" />
+                            <point x="0.944915" y="0.808824" />
+                            <point x="0.5" y="0.882353" />
+                            <point x="0.0550847" y="0.808824" />
+                            <point x="0.0423729" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+        <layout>Level 2.xml</layout>
+        <layout>Ulang.xml</layout>
+        <layout>Level 1.xml</layout>
+        <layout>Level 3.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>E_L2.xml</event-sheet>
+        <event-sheet>E_Wel.xml</event-sheet>
+        <event-sheet>E_Ulang.xml</event-sheet>
+        <event-sheet>E_L1.xml</event-sheet>
+        <event-sheet>E_L3.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="4" />
+        <global-instance type="Touch" uid="53">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Audio" uid="206">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder>
+        <file name="foolboymedia__video-game-land(bg).m4a" />
+        <file name="foolboymedia__video-game-land(bg).ogg" />
+        <file name="bradwesson__collectcoin(gems).m4a" />
+        <file name="bradwesson__collectcoin(gems).ogg" />
+        <file name="kantouth__cartoon-bing-low(collation).m4a" />
+        <file name="kantouth__cartoon-bing-low(collation).ogg" />
+        <file name="littlerobotsoundfactory__jingle-lose-00(lose).m4a" />
+        <file name="littlerobotsoundfactory__jingle-lose-00(lose).ogg" />
+        <file name="EnemyHit.m4a" />
+        <file name="EnemyHit.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

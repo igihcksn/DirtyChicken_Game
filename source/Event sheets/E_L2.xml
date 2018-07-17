@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>E_L2</name>
+    <events>
+        <event-group description="" sid="4830809377585596" title="Umum Level 2">
+            <sub-events>
+                <variable constant="0" name="Gem" sid="9840617619606717" static="0" type="number">0</variable>
+                <event-block sid="7278742625126561">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4919121493608223" type="SpriteFont3">
+                            <param id="0" name="Instance variable">type</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;gem&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="2707075485001887" type="SpriteFont3">
+                            <param id="0" name="Text">Gem</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9773294141147218">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="2689826258421309" type="SpriteFont3">
+                            <param id="0" name="Instance variable">type</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;heart&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="296116653293229" type="SpriteFont3">
+                            <param id="0" name="Text">ayam3.heart</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8673832601488893">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="7930023332178494" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set layer visible" sid="5170011895731204" type="System">
+                            <param id="0" name="Layer">&quot;Popup&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="18026468939421" type="Audio">
+                            <param id="0" name="Audio file">foolboymedia__video-game-land(bg)</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;Awal&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="1780360534705124" title="Event Ayam L2">
+            <sub-events>
+                <event-block sid="7937781274622617">
+                    <conditions>
+                        <condition behavior="Platform" id="8" name="On moved" sid="1216199011716604" type="ayam3" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="3903479320118221" type="ayam3">
+                            <param id="0" name="Animation">&quot;walk&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1379659706770926">
+                    <conditions>
+                        <condition behavior="Platform" id="7" name="On stopped" sid="5148668587125264" type="ayam3" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="976090519953992" type="ayam3">
+                            <param id="0" name="Animation">&quot;stand&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6201411473095948">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="699449916153584" type="ayam3">
+                            <param id="0" name="Object">lavaTop_high</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Flash" id="0" name="Flash" sid="1532449761679599" type="ayam3">
+                            <param id="0" name="&apos;On&apos; time">0.2</param>
+                            <param id="1" name="&apos;Off&apos; time">0.2</param>
+                            <param id="2" name="Duration">1.0</param>
+                        </action>
+                        <action id="-12" name="Subtract from" sid="8295105855650212" type="ayam3">
+                            <param id="0" name="Instance variable">heart</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5383367738723224">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="8737749878738629" type="ayam3">
+                            <param id="0" name="Object">tudung</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="7643327113046738" type="Audio">
+                            <param id="0" name="Audio file">EnemyHit</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action behavior="Flash" id="0" name="Flash" sid="8496615549199133" type="ayam3">
+                            <param id="0" name="&apos;On&apos; time">0.2</param>
+                            <param id="1" name="&apos;Off&apos; time">0.2</param>
+                            <param id="2" name="Duration">1.0</param>
+                        </action>
+                        <action id="-12" name="Subtract from" sid="867686405789039" type="ayam3">
+                            <param id="0" name="Instance variable">heart</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8258622402847411">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="372628222696811" type="ayam3">
+                            <param id="0" name="Object">garpu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="8412832310868497" type="Audio">
+                            <param id="0" name="Audio file">EnemyHit</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action behavior="Flash" id="0" name="Flash" sid="486052358724094" type="ayam3">
+                            <param id="0" name="&apos;On&apos; time">0.2</param>
+                            <param id="1" name="&apos;Off&apos; time">0.2</param>
+                            <param id="2" name="Duration">1.0</param>
+                        </action>
+                        <action id="-12" name="Subtract from" sid="2296679018138678" type="ayam3">
+                            <param id="0" name="Instance variable">heart</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8739026923244359">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="3807038675850857" type="ayam3">
+                            <param id="0" name="Object">tudung</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="3923833835192594" type="Audio">
+                            <param id="0" name="Audio file">EnemyHit</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action behavior="Flash" id="0" name="Flash" sid="7016211525129392" type="ayam3">
+                            <param id="0" name="&apos;On&apos; time">0.2</param>
+                            <param id="1" name="&apos;Off&apos; time">0.2</param>
+                            <param id="2" name="Duration">1.0</param>
+                        </action>
+                        <action id="-12" name="Subtract from" sid="5788869147011245" type="ayam3">
+                            <param id="0" name="Instance variable">heart</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4375243364743873">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="9497772461478549" type="ayam3">
+                            <param id="0" name="Object">mayo2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="4770366122043947" type="Audio">
+                            <param id="0" name="Audio file">bradwesson__collectcoin(gems)</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="469162409785598" type="mayo2" />
+                    </actions>
+                </event-block>
+                <event-block sid="7884816784463155">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="9274690576370549" type="ayam3">
+                            <param id="0" name="Instance variable">heart</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-26" name="Restart layout" sid="1184784148264065" type="System" />
+                    </actions>
+                </event-block>
+                <event-block sid="4958439702203683">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="9589912460620928" type="ayam3">
+                            <param id="0" name="Object">sambel</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="8957777737085667" type="Audio">
+                            <param id="0" name="Audio file">EnemyHit</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action behavior="Flash" id="0" name="Flash" sid="4089884338196909" type="ayam3">
+                            <param id="0" name="&apos;On&apos; time">0.2</param>
+                            <param id="1" name="&apos;Off&apos; time">0.2</param>
+                            <param id="2" name="Duration">1.0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="4766604834345492" type="sambel" />
+                        <action id="-12" name="Subtract from" sid="9147734848087492" type="ayam3">
+                            <param id="0" name="Instance variable">heart</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2443403045464076">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="7681207138403332" type="ayam3">
+                            <param id="0" name="Object">flagGreen</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Stop" sid="2481869584420849" type="Audio">
+                            <param id="0" name="Tag">&quot;Awal&quot;</param>
+                        </action>
+                        <action behavior="Platform" id="11" name="Set enabled" sid="1564147686831689" type="ayam3">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="6254074658753991" type="System">
+                            <param id="0" name="Layer">&quot;Popup&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="9751923852901739">
+            <conditions>
+                <condition id="17" name="On tap object" sid="580212576650818" type="Touch">
+                    <param id="0" name="Object">btnUlang2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="3751283302832802" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="7669940614559551" type="System" />
+                <action id="-21" name="Reset global variables" sid="694152338947674" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="2995839968250584">
+            <conditions>
+                <condition id="17" name="On tap object" sid="6136743175295573" type="Touch">
+                    <param id="0" name="Object">next</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="4015626930990358" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="2764547890432742" type="System">
+                    <param id="0" name="Layout">Level 3</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
