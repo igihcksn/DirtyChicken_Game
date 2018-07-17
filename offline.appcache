@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1531832259
+#1531837321
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -78,6 +78,9 @@ images/planethalf-sheet0.png
 images/pisau-sheet0.png
 images/bonus-sheet0.png
 images/complete-sheet0.png
+images/next-sheet0.png
+images/btnulang2-sheet0.png
+images/lagi-sheet0.png
 media/foolboymedia__video-game-land(bg).m4a
 media/foolboymedia__video-game-land(bg).ogg
 media/bradwesson__collectcoin(gems).m4a
